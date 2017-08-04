@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* Branding Colour*/
+#content p, ul li,#content h3, h2, h1{
+    color: #4D4D4D;} 
+#services p, #banner1 h1, #banner1 p, #header2b a,#header2a,#header2a a, #header2a:before, .formbuilder-form .row label, div.formbuilder-wrapper label,.formbuilder-form input#submit-form, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form,.formbuilder-form input#submit-form:hover, .formbuilder-form input#submit-form:focus, .formbuilder-form input#submit-form:active, .formbuilder-form input#submit-form.active, .open>.dropdown-toggle.btn, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:focus, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:active, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form.active, .open>.dropdown-toggle.btn, .btn,.btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn,#contact p, #contact h2, .contact_detail a, .contact_detail a:hover, .contact_detail a:focus  {
+    color: #fff;}
+#content p, ul li,.formbuilder-form .row label, div.formbuilder-wrapper label  {
+    font-weight: 400;}
+#content h3, h2, h1 {
+    font-weight: 700;}
+#banner1 p, h1, h3, h2,.formbuilder-form .row label,.btn p, .formbuilder-form input#submit-form, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form {
+    text-transform: uppercase;}
+#contact p, #contact h2, .contact_detail a, .contact_detail a:hover, .contact_detail a:focus {
+    text-decoration: none;}
+hr {
+    color: #c8262a;
+    border: 2px solid #c8262a;}
+
+/*Buttons*/
+.btn,.btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.17);}
+.btn{
+    width: 35%;
+    transition: 0.2s 0.2s ease-out;}
+.btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn {
+    background-color: rgba(226, 28, 33, 1);
+    transform: scale(1.2);}
+#header2, #header2a a , #header2b a, .btn ,input#submit-form, #submit-form, .btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn, .formbuilder-form input#submit-form:hover, .formbuilder-form input#submit-form, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form,footer a {text-decoration: none;}
+
+/*Forms*/
+ .form, #contact_form_form, #quote_form_form, #extraFormsContainer .modal-dialog{
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.17);}
+.formbuilder-form .row input, .formbuilder-form .row select, .formbuilder-form .row textarea{
+    border: 1px solid #bbbbbb;}
+.btn, .btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn, .formbuilder-form input#submit-form, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form{
+    background-color: rgba(226, 28, 33, 1);
+    border-radius:20px;}
+.btn, .formbuilder-form input#submit-form:hover, .formbuilder-form input#submit-form:focus, .formbuilder-form input#submit-form:active, .formbuilder-form input#submit-form.active, .open>.dropdown-toggle.btn, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:focus, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:active, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form.active, .open>.dropdown-toggle.btn {
+    background-color: rgba(201, 154, 34, 1);}
+
+/*Header*/
+header{
+    background-color: rgba(36, 35, 35, 1);
+    padding: 20px 0 0px 0;}
+#header1 p{
+    line-height:0px;}
+#header2a {
+    padding-top:5px}
+#header2a:before, #services h3,#contact h3 {
+    color: #c8262a;}
+#header2b{
+    font-size: 21px;
+    line-height:2px;}
+
+/*Banner*/
+#banner1 h1 {
+    font-size: 60px;}
+.banner_cover {
+    opacity: 0.3;
+    background-color: #000;}
+#banner1 {
+    animation:move 2s ease;}
+@-webkit-keyframes move {from {transform: scale(0.8);opacity:0;} to {transform: scale(1.0);opacity:1;}}
+
+/*Services & Content*/
+#services h3:hover{
+    transform: scale(1.1);}
+#service1,#service2,#service3,#service4{
+    transition: 0.2s 0.2s ease-out;}
+#service1:hover,#service2:hover,#service3:hover,#service4:hover{
+    transform: scale(1.2);}
+#gallery{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4);}
+#gallery img, #content img {
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;}
+#gallery img:hover, #content img:hover {
+    opacity: 0.3;}
+#gallery .row, #gallery1, #gallery p > img, #gallery p > a, #gallery p.gallery1 > a, #gallery p.gallery1 > img { 
+    margin: 0; }
+#gallery1 p, #gallery, #gallery .container {
+    padding: 0;
+    margin-bottom :0;}
+#gallery1, #gallery p > img, #gallery p > a, #gallery p.gallery1 > a, #gallery p.gallery1 > img {
+    -webkit-box-flex: 0 0 100%;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding:0;}
+ @media only screen and (min-width: 767px){
+    #gallery p > img, #gallery p > a, #gallery p.gallery1 > a, #gallery p.gallery1 > img {
+        -webkit-box-flex: 0 0 33.333%;
+        -webkit-flex: 0 0 33.333%;
+        -ms-flex: 0 0 33.333%;
+        flex:  0 0 33.333%;
+        max-width: 33.333%;
+        margin-bottom: 0px;}
+}
+#gallery img ,#gallery1 p, #gallery, #gallery .container, #gallery img, #content img{
+    width:100%;}
+@media only screen and (max-width: 767px) and (min-width: 0px)  {
+    #gallery p img, #gallery p.gallery3 img, #gallery p.gallery4 img, #gallery p.gallery5 img, #gallery p.gallery6 img {
+        -webkit-box-flex: 0 1 100%;
+        -webkit-flex: 0 1 100%;
+        -ms-flex: 0 1 100%;
+        flex: 0 1 100%;
+        max-width: 100%;}
+    #gallery img {
+        width: 95%}
+}
+
+/*Contact*/
+#contact {
+    background-color: rgba(36, 35, 35, 1);
+    border-bottom: 5px solid rgba(201, 154, 34, 1);}
+#contact1b, #contact2, #content2b {
+    display: none;}
+#contact1 {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;}
+
+/*Footer*/
+footer, footer a, footer * {color: #000;}
+footer {background-color: #f4f4f4;}
+footer a {font-weight: 500;}
+
+/*Media Queries*/
+@media only screen and (max-width: 767px) and (min-width: 0px)  {
+    #header1 p{line-height:0px;}
+    #header2b {line-height: 18px;}
+    #header2 {padding-bottom: 0px;}  
+    #header {padding: 30px 0 30px 0;}
+    #contact1{width: 80%;}
+    #service1:hover,#service2:hover,#service3:hover,#service4:hover{transform: scale(1.0);}
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    #header1 p{line-height:0px;}
+    #header2 {padding-top: 30px;}
+    #header2a:before {font-size: 30px;}
+    #header2b a{font-size: 20px;
+        line-height: 40px;}
+    #header2a {
+        font-size: 35px;
+        line-height: 18px;} 
+}
+@media only screen and (max-width: 767px){ul li:before, .contact_detail:before {display:none}}
+@media only screen and (max-width: 690px) and (min-width: 441px) {#banner h1 {font-size: 50px;}}
+@media (max-width: 710px) {.btn{width:100%;word-wrap: break-word;}}
+@media (min-width: 0px) {.btn {margin-top: 10px;}}
+@media (max-width: 440px) {#banner h1 {font-size: 40px;}}
+@media (max-width: 767px) {#service3 {clear:left }} 
